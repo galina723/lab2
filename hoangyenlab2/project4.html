@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration Form </title>
+</head>
+
+<body>
+
+    <form action="" method="POST">
+
+        <table border="1" height="150%">
+
+            <tr>
+
+                <th> <label for="fullname"> Fullname* </label> </th>
+                <td> <input type="text" id="fullname" required> </td>
+
+            </tr>
+
+            <tr>
+
+                <th> <label for="email"> Email* </label> </th>
+                <td> <input type="email" id="email" required> </td>
+
+            </tr>
+
+            <tr>
+
+                <th> <label for="pass"> Password* </label> </th>
+                <td> <input type="password" id="password" required> </td>
+
+            </tr>
+
+            <tr>
+
+                <th> <label for="cfpass"> Confirm Password* </label> </th>
+                <td> <input type="password" id="password" required> </td>
+
+            </tr>
+
+            <tr>
+
+                <th> <label for="phone"> Phone Number* </label> </th>
+                <td> <input type="tel" id="phonenum" pattern="[0-9]{10}" required> </td>
+
+            </tr>
+
+            <tr>
+
+                <th> <label for="address"> Address* </label> </th>
+                <td> <input type="text" id="address" required> </td>
+
+            </tr>
+
+            <tr>
+
+                <th> <label for="city"> City* </label> </th>
+                <td> <input type="text" id="city" placeholder="Enter your city" required>
+                    <label for="state"> State</label>
+                    <input type="text" id="state" placeholder="Enter your State">
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <th> <label for="zip"> Zip/Postal Code* </label></th>
+                <td> <input type="text" id="zip" placeholder="Enter your Zip/Postal Code" required> </td>
+
+            </tr>
+
+            <tr>
+
+                <th> <label for="country"> Country* </label> </th>
+                <td>
+
+                    <select id="country" required>
+
+                        <option value="the uk"> The UK </option>
+                        <option value="the usa"> The USA </option>
+                        <option value="vietnam"> Viet Nam</option>
+
+                    </select>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <th> <label for="bday"> Birthday* </label> </th>
+                <td> <input type="date" id="bday" required> </td>
+
+            </tr>
+
+            <tr>
+
+                <th> <label for="gender"> gender* </label> </th>
+                <td>
+
+                    <select id="gender" required>
+
+                        <option value="male"> Male </option>
+                        <option value="Female"> Female </option>
+
+                    </select>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <th> <label for="startdate"> Starting Date* </label> </th>
+                <td>
+
+                    <input type="radio" id="spring">
+                    <label for="spring"> Spring </label>
+                    <input type="radio" id="summer">
+                    <label for="spring"> Summer </label>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <th> <label for="cmt"> Comment* </label> </th>
+                <td>
+                    <textarea id="comment" rows="3" cols="25" placeholder="Please send us more information"></textarea>
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td colspan="2"> <button type="submit"> Submit </button>
+            </tr>
+
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+
+</html>

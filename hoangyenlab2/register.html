@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+
+<body>
+
+    <form action="/action_page.php">
+
+        <fieldset>
+
+            <legend>Thong tin ca nhan</legend>
+            <label for="name">Ho va ten </label>
+            <input type="text" id="name" required> <br> <br>
+            <label for="date">Ngay sinh</label>
+            <input list="day" name="day" style="width: 30px;" required>
+            <datalist id="day">
+                <option value="1">
+                <option value="2">
+                <option value="3">
+                <option value="4">
+                <option value="5">
+                <option value="6">
+                <option value="7">
+                <option value="8">
+                <option value="9">
+                <option value="10">
+                <option value="11">
+                <option value="12">
+                <option value="13">
+                <option value="14">
+                <option value="15">
+                <option value="16">
+                <option value="17">
+                <option value="18">
+                <option value="19">
+                <option value="20">
+                <option value="21">
+                <option value="22">
+                <option value="23">
+                <option value="24">
+                <option value="25">
+                <option value="26">
+                <option value="27">
+                <option value="28">
+                <option value="29">
+                <option value="30">
+                <option value="31">
+            </datalist>
+
+            <label for="month">Thang</label>
+            <input list="month" name="month" style="width:30px" required>
+            <datalist id="month">
+                <option value="1">
+                <option value="2">
+                <option value="3">
+                <option value="4">
+                <option value="5">
+                <option value="6">
+                <option value="7">
+                <option value="8">
+                <option value="9">
+                <option value="10">
+                <option value="11">
+                <option value="12">
+            </datalist>
+
+            <label for="year">Nam</label>
+            <input type="text" id="year" name="year" style="width: 30px;" required>  <br> <br>
+
+            <label for="gender">Gioi tinh</label>
+            <input type="radio" id="gender" name="gender">
+            <a> Nam </a>
+            <input type="radio" id="gender" name="gender">
+            <a> Nu </a> <br> <br>
+
+            <label for="adr">Dia chi</label>
+            <textarea id="adr" required></textarea> <br> <br>
+
+            <label for="phonenum">Dien thoai</label>
+            <input type="tel" id="phonenum" pattern="[0-9]{10}" required>
+
+            <label for="mail">Email</label>
+            <input type="email" id="mail" required>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Thong tin dang nhap</legend>
+            <label for="name">Ten dang nhap</label>
+            <input type="text" id="name" required> <br> <br>
+
+            <label for="pass">Mat khau</label>
+            <input type="password" id="pass" required>
+
+            <label for="passs">Nhap lai mat khau</label>
+            <input type="password" id="passs" required>
+
+        </fieldset>
+        
+
+    </form>
+
+</body>
+
+</html>
